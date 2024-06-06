@@ -1,4 +1,5 @@
 import random
+#Obv still suck at coding so every input is case sensitive and has to be typed exactly how it tells you to
 #Variables
 pitcher_list = ("Shota Imanaga", "Paul Skenes", "Miles Mikolas", "Hunter Greene", "Freddy Peralta")
 pitcher_randomizer = random.choice(pitcher_list)
