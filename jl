@@ -111,7 +111,7 @@ def second_attempt():
 
 
 def third_attempt():
-    attempt_3 = input('Pitch 2 (Type "fb" for Fastball , "cu" for Curveball, "sl" for Slider , "ch" for Changeup: ')
+    attempt_3 = input('Pitch 3 (Type "fb" for Fastball , "cu" for Curveball, "sl" for Slider , "ch" for Changeup: ')
     if attempt_3 == "fb" and pitch_randomizer != "Fastball":
         print("Strike 3")
         print("You're Out")
