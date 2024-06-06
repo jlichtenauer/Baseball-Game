@@ -1,5 +1,4 @@
 import random
-from .utils import print_divider
 
 pitchers = ('Shota Imanaga', 'Paul Skenes', 'Miles Mikolas', 'Hunter Greene', 'Freddy Peralta')
 
@@ -24,7 +23,6 @@ def select_batter():
         print('\nPlease enter a valid batter.')
         batter = input('Selection: ')
 
-    #print()
     return batters_dict[batter]
 
 
