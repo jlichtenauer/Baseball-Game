@@ -1,5 +1,8 @@
 import random
 #Obv still suck at coding so every input is case sensitive and has to be typed exactly how it tells you to
+#Let me know how I can make this cleaner im sure my code is very sloppy
+#May be one issue with the first "Play" input, occasionally will have output "Please type Play" even if you correctly type "Play" at the beginning
+
 #Variables
 pitcher_list = ("Shota Imanaga", "Paul Skenes", "Miles Mikolas", "Hunter Greene", "Freddy Peralta")
 pitcher_randomizer = random.choice(pitcher_list)
